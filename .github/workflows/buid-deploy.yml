@@ -40,4 +40,5 @@ jobs:
   deploy:
     needs: build
     uses: Social-Shop/social-shop-backend-deploy/.github/workflows/deploy.yml@main
+    secrets: inherit
             
