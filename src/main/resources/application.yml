@@ -28,7 +28,6 @@ eureka:
       fetch-registry: true
 
 
-
 management:
   endpoint:
     gateway:
